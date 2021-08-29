@@ -1,10 +1,231 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".IngredientActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="79dp"
+            android:layout_height="134dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/saladeingredient" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="UNE BASE                       Epinards  Iceberg  Mâche  Pâtes  Pâtes et Roquette  Quinoa  Quinoa et Epinards  Roquette  Carotte et Courgette"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="87dp"
+            android:layout_height="144dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dessert" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="113dp"
+            android:layout_height="167dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="DESSERT                                    Tiramisu, mousse au chocolat, fruits rouge, cookie pépite de chocolat, salade fruit"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="194dp"
+            android:layout_height="144dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/boissons" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="220dp"
+            android:layout_height="167dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="BOISSONS                                    Coca cola, fanta, oasis, pepsi, orangina, eau pétillante, eau minéral, ice tea"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/orderbutton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/green_mongoo"
+            android:text="Je commande"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="84dp"
+            android:layout_height="144dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ingredientbleu" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="113dp"
+            android:layout_height="167dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="INGREDIENT BLEU                       Ananas*
+
+Anchois*
+
+Asperges*
+
+Avocat
+
+Aubergines*
+
+Brocolis*
+
+Cantal
+
+Chorizo
+
+Cœur d'artichaut*
+
+Cœur de palmier*
+
+Fourme d'Ambert*
+
+Gésiers
+
+Grana Panado
+
+Jambon cru
+
+Courgettes*"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="84dp"
+            android:layout_height="161dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ingredientvert" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="113dp"
+            android:layout_height="167dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="INGREDIENT VERT                      Betteraves Carottes
+
+Céleri*
+
+Champignons
+
+Choux rouges
+
+Concombre
+
+Croûtons
+
+Emmental
+
+Fèves
+
+Jambon blanc
+
+Lentilles
+
+Maïs
+
+Mimolette"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

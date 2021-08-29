@@ -18,12 +18,14 @@
         android:id="@+id/saladName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/salad_pic"
-        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="10dp"
+        android:text=""
         android:textColor="@color/black"
-        android:text=""/>
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
